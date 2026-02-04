@@ -5,6 +5,8 @@ import ClassComp from './component/ClassComp';
 import StateComp from './component/StateComp';
 import EventComp from './component/EventComp';
 import ParentComp from './component/ParentComp';
+import MyImagesComp from './component/MyImagesComp';
+
 function App() {
   return (
     <div className="App">
@@ -15,9 +17,10 @@ function App() {
       <FunctionComp uname = "Laith Kishore" upost="Scientist"/>
       <ClassComp ename= "Saran" epost="Engineer"/>
       <StateComp/>
-      <EventComp/>*/}
-      <ParentComp/>
-      
+      <EventComp/>
+      <ParentComp/*/}
+      <MyImagesComp/>
+
     </div>
 
   );
