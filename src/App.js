@@ -6,7 +6,8 @@ import StateComp from './component/StateComp';
 import EventComp from './component/EventComp';
 import ParentComp from './component/ParentComp';
 import MyImagesComp from './component/MyImagesComp';
-
+import HoverCounterComp from './component/HoverCounterComp';
+import ClickCounterComp from './component/ClickCounterComp';
 function App() {
   return (
     <div className="App">
@@ -18,9 +19,10 @@ function App() {
       <ClassComp ename= "Saran" epost="Engineer"/>
       <StateComp/>
       <EventComp/>
-      <ParentComp/*/}
-      <MyImagesComp/>
-
+      <ParentComp/>
+      <MyImagesComp/>*/}
+      <HoverCounterComp/>
+      <ClickCounterComp/>
     </div>
 
   );
