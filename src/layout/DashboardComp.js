@@ -19,7 +19,7 @@ const DashboardComp = () => {
             </div>
             
         </div>
-        <Outlet/>
+        
       
     </div>
   )
