@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const formvalidation = () => {
+const FormValComp = () => {
   const [user, setUser] = useState({
     fname: "",
     lname: "",
@@ -66,4 +66,4 @@ const formvalidation = () => {
   );
 };
 
-export default formvalidation;
+export default FormValComp;

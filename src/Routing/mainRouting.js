@@ -8,7 +8,8 @@ import DashboardComp from "../layout/DashboardComp";
 import AddProductComp from "../CRUD/AddProductComp";
 import  ProductDetailComp  from "../CRUD/ProductDetailComp";
 import UpdateProductComp from "../CRUD/UpdateProductComp";
-import DataListComp from "../component/DataListComp";
+import DataListComp from "../layout/DataListComp";
+import FormValComp from "../component/FormValComp";
 import NAvComp from "../layout/NAvComp";
 const router = createBrowserRouter([
     {path:"dashboard",element:<DashboardComp/>,children:[
@@ -17,12 +18,12 @@ const router = createBrowserRouter([
       {path:"addproduct",element:<AddProductComp/>},
       {path:"update",element:<UpdateProductComp/>},
       {path:"productdetail",element:<ProductDetailComp/>},
+      {path:"formval",element:<FormValComp/>},
     ]},
     //2.default routing
     {path:"", element:<MyImagesComp/>},
     //1.naming routing
     {path:"myimages",element:<MyImagesComp/>},
-    
     
     //3.Parameterized routing
     {path:"myimages",element:<MyImagesComp/>},

@@ -1,28 +1,28 @@
 import React, {Component} from 'react';
-import ConstImage from '../../shared/constant/ConstImage';
+import constantfile from '../shared/constant/constantfile';
 
-class ChangeImage extends Component{
+class ChangeImageComp extends Component{
     constructor(){
         super();
         this.state={
-            show:ConstImage.car,name:"Super Car"
+            show:constantfile.car,name:"Super Car"
         };
     }
     Car1=()=>{
         this.setState({
-            show: ConstImage.car,
+            show: constantfile.car,
             name: "Super Car"
         });
     }
     Car2=()=>{
         this.setState({
-            show: ConstImage.car2,
+            show: constantfile.car2,
             name: "Race Car"
         });
     }
     Car3=()=>{
         this.setState({
-            show: ConstImage.car3,
+            show: constantfile.car3,
             name: "Ak Car"
         });
     }
@@ -51,4 +51,4 @@ class ChangeImage extends Component{
 
 }
 
-export default ChangeImage;
+export default ChangeImageComp;

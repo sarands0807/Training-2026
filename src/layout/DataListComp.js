@@ -1,11 +1,15 @@
 import React from 'react'
 
-const DataListComp = () => {
+const DataListComp = ({data}) => {
     return (
         <div>
-            <h2>This is a DataList Component</h2>
+            {data.map(item => (
+                <div key={item.id}>{item.name}</div>
+            ))}
         </div>
     )
 }
 
 export default DataListComp
+
+
