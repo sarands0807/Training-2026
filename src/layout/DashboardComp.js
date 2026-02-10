@@ -1,7 +1,7 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom';
 import NAvComp from './NAvComp';
-import VirtualDOMComp from '../component/VirtualDOMComp';
+
 
 const DashboardComp = () => {
   return (
@@ -10,6 +10,7 @@ const DashboardComp = () => {
         <div className="card border-primary">
             <div className="card-header border-primary">
                <NAvComp/>
+            
             </div>
             <div className="card-body border-primary">
                 <Outlet/>

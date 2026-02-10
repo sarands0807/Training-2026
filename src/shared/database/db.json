@@ -7,12 +7,6 @@
       "pcompany": "HP"
     },
     {
-      "id": "2",
-      "pname": "Mouse",
-      "pprice": 2000,
-      "pcompany": "Ibal"
-    },
-    {
       "id": "3",
       "pname": "Keyboard",
       "pprice": 500,

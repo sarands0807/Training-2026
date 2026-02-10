@@ -29,7 +29,7 @@ const ProductDetailComp = () => {
     return (
         <div>
             <h2>This is a Product Detail Component</h2>
-            <Link to="/dashboard/addproducts" className='btn btn-primary mt-2 mb-1'><AddIcon/>Add</Link>
+            <Link to="/dashboard/addproduct" className='btn btn-primary mt-2 mb-1'><AddIcon/>Add</Link>
             <table className='table table-striped table-bordered'>
                 <thead>
                     <tr>
@@ -47,7 +47,7 @@ const ProductDetailComp = () => {
                                         <td>{value.pprice}</td>
                                         <td>{value.pcompany}</td>
                                         <td>
-                                            <Link to={`/dashboard/updateproducts/${value.id}`} className='btn btn-success'><EditIcon></EditIcon></Link>{" "}
+                                            <Link to={`/dashboard/updateproduct/${value.id}`} className='btn btn-success'><EditIcon></EditIcon></Link>{" "}
                                             <button type='button' onClick={()=>deleteProduct(value.id)} className='btn btn-danger'><DeliveryDiningIcon/></button>
                                         </td>
                                     </tr>

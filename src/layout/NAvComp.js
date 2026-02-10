@@ -10,7 +10,7 @@ export const NAvComp = () => {
             <Link to = "virtualDOM" className='btn btn-primary btn--sm'>VirtualDOMComp</Link>{" "}
              <Link to = "productdetail" className='btn btn-primary btn--sm'>ProductDetailComp</Link>{" "}
               <Link to = "Datalist" className='btn btn-primary btn--sm'>DataListComp</Link>{" "}
-        
+                <Link to = "formval" className='btn btn-primary btn--sm'>FormValComp</Link>{" "}
         </div>
     )
 }
