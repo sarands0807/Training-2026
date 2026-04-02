@@ -6,7 +6,7 @@ class ClassComp extends Component{
         <h2>This is Lalith Kishore</h2>
          <p>He is <strong>{this.props.ename}</strong></p>
         <p>His job is <strong>{this.props.epost}</strong></p>
-        <p>He is a Gay</p>
+        <p>He is a Good</p>
         </div>
 }
 }
